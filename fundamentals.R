@@ -14,3 +14,10 @@ number1 <- 2449
 number2 <- 1337
 
 number1 + number2
+
+
+# Vector Basics
+
+temps <- c(72, 71, 68, 73, 75, 76, 79)
+names(temps) <- c('Mon','Tue','Wed','Thu','Fri','Sat','Sun')
+temps
