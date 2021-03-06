@@ -41,3 +41,35 @@ v3 > 5
 v4 <- c(55,69,93,114)
 v3 + v4
 v4 - v3
+
+# Conditional loops
+
+# For
+for (i in seq(12)){
+  print(i)
+}
+
+# While
+i <- 4
+while(i <= 10){
+  print(i)
+  i = i+1
+}
+
+# if, elseif e else
+
+#if
+x <- 10
+if(x>0) {
+  print("Número positivo")
+}
+
+#if, elseif e else
+nota = 7.00
+if (nota >= 7) {
+  print("Aprovado")
+} else if (nota > 5 && nota < 7) {
+  print("Recuperação")
+} else {
+  print("Reprovado")
+}
